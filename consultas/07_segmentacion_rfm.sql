@@ -1,0 +1,2 @@
+-- Pregunta: ¿Cómo se reparten los clientes por Recencia, Frecuencia y Monto?
+-- TODO: escribir mi consulta acá.

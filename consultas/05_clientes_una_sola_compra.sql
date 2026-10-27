@@ -1,0 +1,2 @@
+-- Pregunta: ¿Cuántos clientes compraron una sola vez y cuántos nunca compraron? (HAVING, LEFT JOIN)
+-- TODO: escribir mi consulta acá.

@@ -1,0 +1,2 @@
+-- Pregunta: ¿Qué % compra después de recibir una campaña, según abrió o no el mail?
+-- TODO: escribir mi consulta acá.

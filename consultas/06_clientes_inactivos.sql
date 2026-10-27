@@ -1,0 +1,2 @@
+-- Pregunta: ¿Cuántos clientes están activos, inactivos o nunca compraron? (CASE)
+-- TODO: escribir mi consulta acá.

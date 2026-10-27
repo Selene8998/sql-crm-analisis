@@ -1,0 +1,2 @@
+-- Pregunta: ¿Qué % de los clientes nuevos sigue comprando mes a mes?
+-- TODO: escribir mi consulta acá.

@@ -1,0 +1,2 @@
+-- Pregunta: ¿Quiénes son los 10 clientes que más gastaron en los últimos 90 días?
+-- TODO: escribir mi consulta acá.
