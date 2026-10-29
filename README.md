@@ -60,6 +60,12 @@ Pendientes (completar con mis propias consultas):
 - [ ] Retención del mes 0 al mes 1.
 - [ ] Efectividad de campañas y por qué hace falta un grupo de control.
 
+## Próximos pasos
+
+- [ ] Automatizar la ejecución de las consultas y la generación de gráficos con Python.
+- [ ] Chequeo automático de calidad de datos.
+- [ ] Reporte periódico de KPIs y lista de clientes a reactivar.
+
 ## Cómo reproducirlo
 
 1. Abrir `datos/crm_supermercado.db` en DBeaver (conexión SQLite) o importar los CSV de `datos/csv_tablas.zip`.
