@@ -45,7 +45,11 @@ Resultados ya verificados:
 
 - La base tiene **2.000 clientes** y **28.602 ventas**, con una facturación total de **$2.929 millones** y un ticket promedio de **$102.412**.
 - **Tienda** concentra 20.837 ventas y $2.130 millones; **online** 7.765 ventas y $799 millones.
-- ![Ventas y ticket promedio por mes](ventas_y_ticket_por_mes.png)
+- Las **ventas por mes son estables** (entre 2.000 y 2.500), pero el **ticket promedio subió 42 %** en un año: de $85.761 a $122.209. La facturación crece por precio por compra y no por más ventas. Puede ser inflación, y para confirmarlo habría que mirar unidades por compra.
+
+![Ventas y ticket promedio por mes](ventas_y_ticket_por_mes.png)
+
+*Octubre 2025 y octubre 2026 son meses incompletos.*
 
 Pendientes (completar con mis propias consultas):
 
