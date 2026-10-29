@@ -1,5 +1,6 @@
--- Pregunta: ¿cuánto se factura en tienda vs online?
-SELECT canal, COUNT(*) AS ventas, SUM(monto_total) AS facturacion
+-- Pregunta: ¿cuánto factura cada canal y qué % del total representa?
+SELECT canal,
+       SUM(monto_total) AS facturacion,
+       ROUND(SUM(monto_total) * 100.0 / (SELECT SUM(monto_total) FROM ventas), 1) AS porcentaje
 FROM ventas
 GROUP BY canal;
--- Pendiente: sumar el % del total por canal.
