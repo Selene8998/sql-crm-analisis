@@ -32,19 +32,20 @@ Antes de analizar, revisé la calidad de las tablas principales:
 | 1 | ¿Cuántos clientes, ventas y facturación total? | COUNT, SUM | `consultas/01_resumen_general.sql` |
 | 2 | ¿Cómo evolucionan ventas y ticket promedio por mes? | GROUP BY, strftime | `consultas/02_ventas_y_ticket_por_mes.sql` |
 | 3 | ¿Tienda u online? | GROUP BY | `consultas/03_facturacion_por_canal.sql` |
-| 4 | Top clientes de los últimos 90 días | JOIN, ORDER BY, LIMIT | `consultas/04_...` |
-| 5 | Clientes de una sola compra / que nunca compraron | HAVING, LEFT JOIN | `consultas/05_...` |
-| 6 | Activos, inactivos y nunca compraron | CASE, CTE | `consultas/06_...` |
-| 7 | Segmentación RFM | CTE, NTILE | `consultas/07_...` |
-| 8 | Retención por cohorte | CTE, fechas | `consultas/08_...` |
-| 9 | Efectividad de campañas | JOIN, CASE | `consultas/09_...` |
+| 4 | Top clientes de los últimos 90 días | JOIN, ORDER BY, LIMIT | `consultas/04_top_clientes_90_dias.sql` |
+| 5 | Una sola compra / nunca compraron | HAVING, LEFT JOIN | `consultas/05_clientes_una_sola_compra.sql` |
+| 6 | Activos, inactivos y nunca compraron | CASE, CTE | `consultas/06_clientes_inactivos.sql` |
+| 7 | Segmentación RFM | CTE, NTILE | `consultas/07_segmentacion_rfm.sql` |
+| 8 | Retención por cohorte | CTE, fechas | `consultas/08_retencion_por_cohorte.sql` |
+| 9 | Efectividad de campañas | JOIN, CASE | `consultas/09_efectividad_campanas.sql` |
 
 ## Hallazgos
 
 Resultados ya verificados:
 
 - La base tiene **2.000 clientes** y **28.602 ventas**, con una facturación total de **$2.929 millones** y un ticket promedio de **$102.412**.
-- **Tienda** concentra 20.837 ventas y $2.130 millones; **online** 7.765 ventas y $799 millones.
+- La **tienda genera el 72,7 %** de la facturación y el **online el 27,3 %**.
+- En el top 10 de clientes de los últimos 90 días predominan Buenos Aires y CABA, en línea con su peso en la base (82 % de los clientes), así que no hay evidencia de que gasten más que otras provincias.
 - **18 clientes (0,9 %) nunca compraron** y **82 (4,1 %) compraron una sola vez**: son el foco natural para campañas de activación.
 - Las **ventas por mes son estables** (entre 2.000 y 2.500), pero el **ticket promedio subió 42 %** en un año: de $85.761 a $122.209. La facturación crece por precio por compra y no por más ventas. Puede ser inflación, y para confirmarlo habría que mirar unidades por compra.
 
