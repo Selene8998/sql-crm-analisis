@@ -45,6 +45,7 @@ Resultados ya verificados:
 
 - La base tiene **2.000 clientes** y **28.602 ventas**, con una facturación total de **$2.929 millones** y un ticket promedio de **$102.412**.
 - **Tienda** concentra 20.837 ventas y $2.130 millones; **online** 7.765 ventas y $799 millones.
+- ![Ventas y ticket promedio por mes](ventas_y_ticket_por_mes.png)
 
 Pendientes (completar con mis propias consultas):
 
